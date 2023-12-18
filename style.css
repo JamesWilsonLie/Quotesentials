@@ -352,6 +352,14 @@ body {
     color: #000000;
 }
 
+.white {
+    color: #fff !important;
+}
+
+.black {
+    color: #000 !important;
+}
+
 .card-category-overlay {
     position: absolute;
     top: 0;
@@ -421,11 +429,132 @@ body {
   transform: translate(-50%, -50%) scale(2);
 }
 
+.card-category-bg1 {
+    background-image: url('img/bestfriend.jpg');
+}
+
+.card-category-bg2 {
+    background-image: url('img/confidence.jpg');
+}
+
+.card-category-bg3 {
+    background-image: url('img/courage.jpg');
+}
+
+.card-category-bg4 {
+    background-image: url('img/death.jpg');
+}
+
+.card-category-bg5 {
+    background-image: url('img/dream.jpg');
+}
+
+.card-category-bg6 {
+    background-image: url('img/education.jpg');
+}
+
+.card-category-bg7 {
+    background-image: url('img/encouraging.jpg');
+}
+
+.card-category-bg8 {
+    background-image: url('img/experience.jpg');
+}
+
+.card-category-bg9 {
+    background-image: url('img/family.jpg');
+}
+
+.card-category-bg10 {
+    background-image: url('img/friendship.jpg');
+}
+
+.card-category-bg11 {
+    background-image: url('img/funny.jpg');
+}
+
+.card-category-bg12 {
+    background-image: url('img/girl.jpg');
+}
+
+.card-category-bg13 {
+    background-image: url('img/happiness.jpg');
+}
+
+.card-category-bg14 {
+    background-image: url('img/heartbreak.jpg');
+}
+
+.card-category-bg15 {
+    background-image: url('img/inspirational.jpg');
+}
+
+.card-category-bg16 {
+    background-image: url('img/intelligence.jpg');
+}
+
+.card-category-bg17 {
+    background-image: url('img/journey.jpg');
+}
+
+.card-category-bg18 {
+    background-image: url('img/kindness.jpg');
+}
+
+.card-category-bg19 {
+    background-image: url('img/knowledge.jpg');
+}
+
+.card-category-bg20 {
+    background-image: url('img/learning.jpg');
+}
+
+.card-category-bg21 {
+    background-image: url('img/life.jpg');
+}
+
+.card-category-bg22 {
+    background-image: url('img/love.jpg');
+}
+
+.card-category-bg23 {
+    background-image: url('img/motivation.jpg');
+}
+
+.card-category-bg24 {
+    background-image: url('img/nature.jpg');
+}
+
+.card-category-bg25 {
+    background-image: url('img/opportunity.jpg');
+}
+
+.card-category-bg26 {
+    background-image: url('img/optimistic.jpg');
+}
+
+.card-category-bg27 {
+    background-image: url('img/patience.jpg');
+}
+
+.card-category-bg28 {
+    background-image: url('img/peace.jpg');
+}
+
+.card-category-bg29 {
+    background-image: url('img/positive.jpg');
+}
+
+.card-category-bg30 {
+    background-image: url('img/quality.jpg');
+}
+
 .section-page {
     position: relative;
     width: 100%;
     height: 16em;
     box-sizing: border-box;
+    background-size: cover;
 }
 
 .page-quotes {
@@ -440,6 +569,13 @@ body {
     background-size: cover;
     background-position-x: 50%;
     background-position-y: 55%;
+}
+
+.page-author {
+    background-image: url("img/author.jpg");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 65%;
 }
 
 .page-about {
@@ -471,6 +607,11 @@ body {
     line-height: 1.4em;
     color: #000;
     margin-bottom: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .card-quotes p.author {
@@ -495,7 +636,7 @@ body {
 .go-arrow {
     margin-top: -4px;
     margin-right: -4px;
-    color: white;
+    color: #ffffff;
     font-family: courier, sans;
 }
 
@@ -558,6 +699,7 @@ body {
     z-index: 0;
     overflow: hidden;
 }
+
 .quotes-details p.quotes-text-details {
     font-size: 1.2em;
     font-weight: 500;
@@ -627,13 +769,13 @@ body {
 
 .pagination .active {
     background-color: #333;
-    color: white;
+    color: #ffffff;
 }
 
 .card-about {
     width: 100%;
     height: 15em;
-    color: white;
+    color: #ffffff;
     display: inline-flex;
     gap: 2em;
     margin-bottom: 2em;
@@ -708,7 +850,7 @@ body {
 
 .form-container .heading {
     display: block;
-    color: white;
+    color: #ffffff;
     font-size: 1.5rem;
     font-weight: 800;
     margin-bottom: 20px;
