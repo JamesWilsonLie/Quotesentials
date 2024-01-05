@@ -617,6 +617,8 @@ body {
 .card-quotes p.author {
     font-size: 1em;
     color: #666;
+    bottom: 1.4em;
+    position: absolute;
 }
 
 .go-corner {
@@ -641,6 +643,7 @@ body {
 }
 
 .card-quotes-a {
+    width: 22em;
     display: block;
     position: relative;
     background-color: #f2f8f9;
@@ -773,7 +776,7 @@ body {
 }
 
 .card-about {
-    width: 100%;
+    width: 65em;
     height: 15em;
     color: #ffffff;
     display: inline-flex;
