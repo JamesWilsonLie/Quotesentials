@@ -123,7 +123,7 @@ html, body {
     .navbar ul {
         position: fixed;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background: #d1d1d1;
         top: 80px;
         left: -100%;
@@ -153,7 +153,101 @@ html, body {
 
 }
 
-@media (max-width: 380px) {
+@media (max-width: 515px) {
+    .navbar {
+        width: 32em !important;
+    }
+
+    .navbar ul { 
+        width: 32em !important;
+    }
+    .navbar a.logo {
+        font-size: 1.4em !important;
+    }
+    
+    .section-home {
+        width: 32em !important;
+    }
+
+    .section-page {
+        width: 32em !important;
+    }
+    
+    .section-page h1 {
+        font-size: 2em !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0.2em !important;
+        top: 50% !important;
+    }
+
+    .section-home {
+        width: 32em !important;
+    }
+
+    .section-content {
+        width: 32em !important;
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .section-content h1 {
+        font-size: 1.8em !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .card-quotes {
+        max-width: 28em !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .card-quotes-details {
+        width: 28em !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .see-more {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .pagination {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    
+    .section-content p.about {
+        font-size: 0.8em !important;
+        text-align: justify !important;
+        line-height: 1.2em !important;
+        text-indent: 2em !important;
+    }
+
+    .footer {
+        width: 32em !important;
+    }
+    
+    .social-container {
+        width: 100% !important;
+        gap: 1em !important;
+        padding: 1em !important;
+    }
+
+    .social {
+        padding: 0 !important;
+        width: 2.5em !important;
+        height: 2.5em !important;
+    }
+
+}
+
+@media (max-width: 354px) {
     .navbar {
         width: 22em !important;
     }
@@ -177,7 +271,8 @@ html, body {
         font-size: 2em !important;
         margin-left: auto !important;
         margin-right: auto !important;
-        top: 5em !important;
+        padding: 0.2em !important;
+        top: 50% !important;
     }
 
     .section-home {
