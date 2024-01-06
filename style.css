@@ -12,7 +12,7 @@ html, body {
 
 .navbar {
     background: #e8e8e8;
-    height: 80px;
+    height: 5em;
     width: 100%;
     position: relative;
     z-index: 999;
@@ -21,28 +21,28 @@ html, body {
 
 .navbar a.logo {
     color: #000000;
-    font-size: 35px;
-    line-height: 80px;
+    font-size: 2em;
+    line-height: 2.2em;
     padding: 0 2em;
     font-weight: bold;
 }
 
 .navbar ul {
     float: right;
-    margin-right: 20px;
+    margin-right: 2em;
 }
 
 .navbar ul li {
     display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+    line-height: 4.4em;
+    margin: 0 0.4em;
 }
 
 .navbar ul li a {
     color: #6d6d6d;
-    font-size: 17px;
+    font-size: 1em;
     padding: 0.2em 0.4em;
-    border-radius: 3px;
+    border-radius: 0.2em;
     text-transform: uppercase;
 }
 
@@ -57,11 +57,11 @@ html, body {
 }
 
 .checkbtn {
-    font-size: 30px;
+    font-size: 1.8em;
     color: #ffffff;
     float: right;
-    line-height: 80px;
-    margin-right: 40px;
+    line-height: 3em;
+    margin-right: 1.5em;
     cursor: pointer;
     display: none;
 }
@@ -82,7 +82,7 @@ html, body {
     display: block;
     width: 1em;
     height: 0.1em;
-    border-radius: 3px;
+    border-radius: 0.2em;
     background: #000000;
 }
 
@@ -99,12 +99,12 @@ html, body {
 
 @media (max-width: 952px) {
     label.logo {
-        font-size: 30px;
-        padding-left: 50px;
+        font-size: 2em;
+        padding-left: 3em;
     }
 
     nav ul li a {
-        font-size: 16px;
+        font-size: 1em;
     }
 
 }
@@ -125,7 +125,7 @@ html, body {
         width: 100%;
         height: 100%;
         background: #d1d1d1;
-        top: 80px;
+        top: 5em;
         left: -100%;
         text-align: center;
         transition: all .5s;
@@ -134,8 +134,8 @@ html, body {
 
     .navbar ul li {
         display: block;
-        margin: 50px 0;
-        line-height: 30px;
+        margin: 3em 0;
+        line-height: 1.8em;
     }
 
     .navbar ul li a {
@@ -153,118 +153,214 @@ html, body {
 
 }
 
-@media (max-width: 515px) {
+@media (max-width: 514px) {
     .navbar {
-        width: 32em !important;
+        max-width: 32em;
     }
 
     .navbar ul { 
-        width: 32em !important;
+        max-width: 32em;
     }
     .navbar a.logo {
-        font-size: 1.4em !important;
+        font-size: 1.4em;
+        line-height: 3em;
     }
     
     .section-home {
-        width: 32em !important;
+        max-width: 32em;
     }
 
     .section-page {
-        width: 32em !important;
+        max-width: 32em;
     }
     
     .section-page h1 {
-        font-size: 2em !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        padding: 0.2em !important;
-        top: 50% !important;
+        font-size: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.2em;
+        top: 50%;
     }
 
     .section-home {
-        width: 32em !important;
+        max-width: 32em;
     }
 
     .section-content {
-        width: 32em !important;
-        padding-left: 2em !important;
-        padding-right: 2em !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
+        max-width: 32em;
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .section-content h1 {
-        font-size: 1.8em !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
+        font-size: 1.8em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .card-quotes {
-        max-width: 28em !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
+        max-width: 28em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .card-quotes-details {
-        width: 28em !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
+        max-width: 28em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .see-more {
-        margin-left: auto !important;
-        margin-right: auto !important;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .pagination {
-        margin-left: auto !important;
-        margin-right: auto !important;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     
     .section-content p.about {
-        font-size: 0.8em !important;
-        text-align: justify !important;
-        line-height: 1.2em !important;
-        text-indent: 2em !important;
+        font-size: 0.8em;
+        text-align: justify;
+        line-height: 1.2em;
+        text-indent: 2em;
     }
 
     .footer {
-        width: 32em !important;
+        max-width: 32em;
     }
     
     .social-container {
-        width: 100% !important;
-        gap: 1em !important;
-        padding: 1em !important;
+        max-width: 100%;
+        gap: 1em;
+        padding: 1em;
     }
 
     .social {
-        padding: 0 !important;
-        width: 2.5em !important;
-        height: 2.5em !important;
+        padding: 0;
+        max-width: 2.5em;
+        max-height: 2.5em;
     }
 
 }
 
-@media (max-width: 354px) {
+@media (max-width: 450px) {
     .navbar {
-        width: 22em !important;
+        width: 100%;
     }
 
     .navbar ul { 
-        width: 22em !important;
+        width: 100%;
+    }
+    .navbar a.logo {
+        font-size: 1.4em;
+        line-height: 3em;
+    }
+    
+    .section-home {
+        width: 100%;
+    }
+
+    .section-page {
+        width: 100%;
+    }
+    
+    .section-page h1 {
+        font-size: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.2em;
+        top: 50%;
+    }
+
+    .section-home {
+        width: 100%;
+    }
+
+    .section-content {
+        width: 100%;
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-content h1 {
+        font-size: 1.8em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-quotes {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-quotes-details {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .see-more {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pagination {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    .section-content p.about {
+        font-size: 0.8em;
+        text-align: justify;
+        line-height: 1.2em;
+        text-indent: 2em;
+    }
+
+    .footer {
+        width: 100%;
+    }
+    
+    .social-container {
+        width: 100%;
+        gap: 1em;
+        padding: 1em;
+    }
+
+    .social {
+        padding: 0;
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .navbar {
+        max-width: 100% !important;
+    }
+
+    .navbar ul { 
+        max-width: 100% !important;
     }
     .navbar a.logo {
         font-size: 1.4em !important;
     }
     
     .section-home {
-        width: 22em !important;
+        max-width: 100% !important;
     }
 
     .section-page {
-        width: 22em !important;
+        max-width: 100% !important;
     }
     
     .section-page h1 {
@@ -276,11 +372,11 @@ html, body {
     }
 
     .section-home {
-        width: 22em !important;
+        max-width: 100% !important;
     }
 
     .section-content {
-        width: 22em !important;
+        max-width: 100% !important;
         padding-left: 2em !important;
         padding-right: 2em !important;
         margin-left: auto !important;
@@ -298,7 +394,7 @@ html, body {
     }
 
     .card-quotes-details {
-        width: 18em !important;
+        max-width: 18em !important;
         margin-left: auto !important;
         margin-right: auto !important;
     }
@@ -322,18 +418,18 @@ html, body {
     }
 
     .footer {
-        width: 22em !important;
+        max-width: 100% !important;
     }
     
     .social-container {
-        width: 100% !important;
+        max-width: 100% !important;
         gap: 1em !important;
         padding: 1em !important;
     }
 
     .social {
         padding: 0 !important;
-        width: 2.5em !important;
+        max-width: 2.5em !important;
         height: 2.5em !important;
     }
 
@@ -379,7 +475,7 @@ html, body {
     height: 1em;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 50%;
-    margin: 0 10px;
+    margin: 0 0.8em;
     cursor: pointer;
     transition: background-color 0.5s;
 }
@@ -438,69 +534,69 @@ html, body {
     --submain-color: #78858F;
     --bg-color: #fff;
     position: relative;
-    width: 300px;
-    height: 384px;
+    width: 18.8em;
+    height: 24em;
     display: inline-flex;
     margin-left: 1.4em;
     margin-right: 1.4em;
     margin-top: 1em;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 1.2em;
     background: var(--bg-color);
 }
 
 .card-person-img {
-    height: 192px;
+    height: 12em;
     width: 100%;
 }
 
 .card-person-img img {
     width: 100%;
     height: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 1.2em 1.2em 0 0;
 }
 
 .card-person-avatar {
     position: absolute;
-    width: 114px;
-    height: 114px;
+    width: 7.2em;
+    height: 7.2em;
     background: var(--bg-color);
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: calc(50% - 57px);
+    top: calc(50% - 3.6em);
 }
 
 .card-person-avatar img {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
+    width: 6.2em;
+    height: 6.2em;
+    border-radius: 6.2em;
 }
 
 .card-person-title {
-    margin-top: 60px;
+    margin-top: 3.7em;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1em;
     color: var(--main-color);
 }
 
 .card-person-subtitle {
-    margin-top: 10px;
+    margin-top: 0.8em;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1em;
     color: var(--submain-color);
 }
 
 .card-person-btn {
-    margin-top: 15px;
-    width: 76px;
-    height: 31px;
-    border: 2px solid var(--main-color);
-    border-radius: 4px;
+    margin-top: 1em;
+    width: 7em;
+    height: 3em;
+    border: 0.2em solid var(--main-color);
+    border-radius: 0.4em;
     font-weight: 700;
-    font-size: 11px;
+    font-size: 0.7em;
     color: var(--main-color);
     background: var(--bg-color);
     text-transform: uppercase;
@@ -515,20 +611,20 @@ html, body {
 
 .card-category {
     position: relative;
-    width: 310px;
-    height: 225px;
-    border-radius: 10px;
+    width: 20em;
+    height: 14em;
+    border-radius: 0.8em;
     display: inline-flex;
     margin-left: 1em;
     margin-right: 1em;
     margin-top: 1em;
-    padding: 10px 30px;
+    padding: 0.8 1.6em;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.8em;
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0.8em rgba(0, 0, 0, 0.2);
     background-size: cover;
     background-position: 50%;
 }
@@ -569,11 +665,11 @@ html, body {
     top: 50%;
     left: 50%;
     font-weight: 600;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 0.8em 1.4em;
+    font-size: 1em;
     transform: translate(-50%, -50%);
     background-color: #ffffff;
-    border-radius: 50px;
+    border-radius: 3em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -583,7 +679,7 @@ html, body {
     opacity: 0;
     scale: 0;
     transform-origin: 0 0;
-    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 0.8em 0.8em rgba(0, 0, 0, 0.15);
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
@@ -593,7 +689,7 @@ html, body {
 }
 
 .card-category .card-category-btn:hover {
-    box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0 0.4em rgba(0, 0, 0, 0.3);
 }
 
 .card-category .card-category-btn:active {
@@ -813,18 +909,18 @@ html, body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    width: 32px;
-    height: 32px;
+    width: 2em;
+    height: 2em;
     overflow: hidden;
     top: 0;
     right: 0;
     background-color: #00838d;
-    border-radius: 0 4px 0 32px;
+    border-radius: 0 0.2em 0 2em;
 }
 
 .go-arrow {
-    margin-top: -4px;
-    margin-right: -4px;
+    margin-top: -0.2em;
+    margin-right: -0.2em;
     color: #ffffff;
     font-family: courier, sans;
 }
@@ -834,9 +930,9 @@ html, body {
     display: block;
     position: relative;
     background-color: #f2f8f9;
-    border-radius: 4px;
-    padding: 32px 24px;
-    margin: 12px;
+    border-radius: 0.2em;
+    padding: 2em 1.6em;
+    margin: 0.8em;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
@@ -846,12 +942,12 @@ html, body {
     content: "";
     position: absolute;
     z-index: -1;
-    top: -16px;
-    right: -16px;
+    top: -1em;
+    right: -1em;
     background: #00838d;
-    height: 32px;
-    width: 32px;
-    border-radius: 32px;
+    height: 2em;
+    width: 2em;
+    border-radius: 2em;
     transform: scale(1);
     transform-origin: 50% 50%;
     transition: transform 0.25s ease-out;
@@ -881,10 +977,11 @@ html, body {
 .card-quotes-details {
     display: block;
     position: relative;
+    width: 100%;
     background-color: #f2f8f9;
-    border-radius: 4px;
-    padding: 32px 24px;
-    margin: 12px;
+    border-radius: 0.2em;
+    padding: 2em 1.6em;
+    margin: 0.8em;
     text-decoration: none;
     z-index: 0;
     overflow: hidden;
@@ -912,39 +1009,39 @@ html, body {
     justify-content: center;
     cursor: pointer;
     transition: all 0.3s linear;
-    border-radius: 10px;
-    border: 1px solid #F2BED1;
-    padding: 10px 20px;
+    border-radius: 0.8em;
+    border: 0.1em solid #F2BED1;
+    padding: 0.8em 1.2em;
     margin: 2em auto 2em auto;
 }
 
 .see-more button > svg {
-    margin-left: 5px;
+    margin-left: 0.4em;
     transition: all 0.4s ease-in;
 }
 
 .see-more button:hover > svg {
     font-size: 1.2em;
-    transform: translateX(6px);
+    transform: translateX(0.4em);
 }
 
 .see-more button:hover {
-    box-shadow: 10px 10px 40px #d1d1d1;
-    transform: translateY(-5px);
+    box-shadow: 0.8em 0.8em 2.6em #d1d1d1;
+    transform: translateY(-0.4em);
 }
 
 .pagination {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    margin: 1.2em 0;
 }
 
 .pagination button {
- padding: 8px 16px;
+ padding: 0.7em 1.2em;
  border: none;
  cursor: pointer;
- margin: 0 5px;
+ margin: 0 0.4em;
  outline: none;
 }
 
@@ -973,7 +1070,7 @@ html, body {
 }
 
 .card-about .item {
-    border-radius: 10px;
+    border-radius: 0.8em;
     width: 100%;
     height: 100%;
     display: flex;
@@ -991,7 +1088,7 @@ html, body {
 .card-about .item svg {
     width: 6em;
     height: 4em;
-    margin-bottom: 7px;
+    margin-bottom: 0.5em;
 }
 
 .card-about .about1 {
@@ -1033,7 +1130,7 @@ html, body {
     margin-right: auto;
     background-color: #464646;
     padding: 2em;
-    border-left: 5px solid #00c8d0;
+    border-left: 0.4em solid #00c8d0;
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0 100%);
 }
@@ -1043,7 +1140,7 @@ html, body {
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: 800;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
 }
 
 .form-container .form .input {
@@ -1052,67 +1149,67 @@ html, body {
     background-color: #5d5d5d;
     border: none;
     outline: none;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 0.8em;
+    margin-bottom: 1.2em;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
-    border-left: 1px solid transparent;
+    border-left: 0.1em solid transparent;
 }
 
 .form-container .form .input:focus {
-    border-left: 5px solid #00c8d0;
+    border-left: 0.4em solid #00c8d0;
 }
 
 .form-container .form .textarea {
     width: 100%;
-    padding: 10px;
+    padding: 0.8em;
     border: none;
     outline: none;
     background-color: #5d5d5d;
     color: #00c8d0;
     font-weight: bold;
     resize: none;
-    max-height: 150px;
-    margin-bottom: 20px;
-    border-left: 1px solid transparent;
+    max-height: 9.2em;
+    margin-bottom: 1.2em;
+    border-left: 0.2em solid transparent;
     transition: all 0.2s ease-in-out;
 }
 
 .form-container .form .textarea:focus {
-    border-left: 5px solid #00c8d0;
+    border-left: 0.4em solid #00c8d0;
 }
 
 .form-container .form .button-container {
     display: flex;
-    gap: 10px;
+    gap: 0.8em;
 }
 
 .form-container .form .button-container .send-button {
     flex-basis: 70%;
     background: #00c8d0;
-    padding: 10px;
+    padding: 0.8em;
     color: #001925;
     text-align: center;
     font-weight: bold;
-    border: 1px solid transparent;
+    border: 0.1em solid transparent;
     transition: all 0.2s ease-in-out;
 }
 
 .form-container .form .button-container .send-button:hover {
     background: transparent;
-    border: 1px solid #00c8d0;
+    border: 0.1em solid #00c8d0;
     color: #00c8d0;
 }
 
 .form-container .form .button-container .reset-button-container {
-    filter: drop-shadow(1px 1px 0px #00c8d0);
+    filter: drop-shadow(0.1em 0.1em 0em #00c8d0);
     flex-basis: 30%;
 }
 
 .form-container .form .button-container .reset-button-container .reset-button {
     position: relative;
     text-align: center;
-    padding: 10px;
+    padding: 0.7em;
     color: #00c8d0;
     font-weight: bold;
     background: #001925;
@@ -1128,7 +1225,7 @@ html, body {
 .success {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     max-width: 60em;
-    padding: 12px;
+    padding: 1em;
     display: none;
     margin-top: 1em;
     margin-left: auto;
@@ -1137,15 +1234,15 @@ html, body {
     align-items: center;
     justify-content: start;
     background: #FCE8DB;
-    border-radius: 8px;
+    border-radius: 0.5em;
     box-shadow: 0px 0px 5px -3px #111;
 }
 
 .success-icon {
-    width: 20px;
-    height: 20px;
+    width: 1.2em;
+    height: 1.2em;
     transform: translateY(-2px);
-    margin-right: 8px;
+    margin-right: 0.5em;
 }
 
 .success-icon path {
@@ -1154,13 +1251,13 @@ html, body {
 
 .success-title {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1em;
     color: #393A37;
 }
 
 .success-close {
-    width: 20px;
-    height: 20px;
+    width: 1.2em;
+    height: 1.2em;
     cursor: pointer;
     margin-left: auto;
 }
@@ -1169,11 +1266,9 @@ html, body {
     fill: #393A37;
 }
 
-
-
 .footer {
     background-color: #6d6d6d;
-    padding: 20px;
+    padding: 1.2em;
     color: #ffffff;
     text-align: center;
     position: relative;
@@ -1189,8 +1284,8 @@ html, body {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    gap: 25px;
-    padding: 20px 40px;
+    gap: 1.6em;
+    padding: 1.2em 2em;
 }
 
 .social {
@@ -1200,7 +1295,7 @@ html, body {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: 1px solid rgb(194, 194, 194);
+    border: 0.1em solid rgb(194, 194, 194);
 }
 
 .github:hover {
@@ -1250,6 +1345,6 @@ html, body {
 
 .social svg {
     fill: #ffffff;
-    height: 20px;
+    height: 1.2em;
 }
 
