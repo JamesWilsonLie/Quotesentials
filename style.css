@@ -247,7 +247,7 @@ html, body {
 
 }
 
-@media (max-width: 354px) {
+@media (max-width: 380px) {
     .navbar {
         width: 22em !important;
     }
