@@ -247,24 +247,24 @@ html, body {
 
 }
 
-@media (max-width: 380px) {
+@media (max-width: 375px) {
     .navbar {
-        width: 22em !important;
+        width: 23.4em !important;
     }
 
     .navbar ul { 
-        width: 22em !important;
+        width: 23.4em !important;
     }
     .navbar a.logo {
         font-size: 1.4em !important;
     }
     
     .section-home {
-        width: 22em !important;
+        width: 23.4em !important;
     }
 
     .section-page {
-        width: 22em !important;
+        width: 23.4em !important;
     }
     
     .section-page h1 {
@@ -276,11 +276,11 @@ html, body {
     }
 
     .section-home {
-        width: 22em !important;
+        width: 23.4em !important;
     }
 
     .section-content {
-        width: 22em !important;
+        width: 23.4em !important;
         padding-left: 2em !important;
         padding-right: 2em !important;
         margin-left: auto !important;
@@ -322,7 +322,7 @@ html, body {
     }
 
     .footer {
-        width: 22em !important;
+        width: 23.4em !important;
     }
     
     .social-container {
