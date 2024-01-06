@@ -248,6 +248,7 @@ html, body {
 
 }
 
+<<<<<<< HEAD
 @media (max-width: 450px) {
     .navbar {
         width: 100%;
@@ -350,17 +351,34 @@ html, body {
 
     .navbar ul { 
         max-width: 100% !important;
+=======
+@media (max-width: 375px) {
+    .navbar {
+        width: 23.4em !important;
+    }
+
+    .navbar ul { 
+        width: 23.4em !important;
+>>>>>>> 2954af2431a0e1fdcfbe2ba255a41ea634cb31ca
     }
     .navbar a.logo {
         font-size: 1.4em !important;
     }
     
     .section-home {
+<<<<<<< HEAD
         max-width: 100% !important;
     }
 
     .section-page {
         max-width: 100% !important;
+=======
+        width: 23.4em !important;
+    }
+
+    .section-page {
+        width: 23.4em !important;
+>>>>>>> 2954af2431a0e1fdcfbe2ba255a41ea634cb31ca
     }
     
     .section-page h1 {
@@ -372,11 +390,19 @@ html, body {
     }
 
     .section-home {
+<<<<<<< HEAD
         max-width: 100% !important;
     }
 
     .section-content {
         max-width: 100% !important;
+=======
+        width: 23.4em !important;
+    }
+
+    .section-content {
+        width: 23.4em !important;
+>>>>>>> 2954af2431a0e1fdcfbe2ba255a41ea634cb31ca
         padding-left: 2em !important;
         padding-right: 2em !important;
         margin-left: auto !important;
@@ -418,7 +444,11 @@ html, body {
     }
 
     .footer {
+<<<<<<< HEAD
         max-width: 100% !important;
+=======
+        width: 23.4em !important;
+>>>>>>> 2954af2431a0e1fdcfbe2ba255a41ea634cb31ca
     }
     
     .social-container {
